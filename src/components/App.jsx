@@ -1,8 +1,6 @@
+import Profile from './Profile';
+import userData from '../userData.json';
 
 export default function App() {
-  return (
-    <div>
-      <h1>Products</h1>
-    </div>
-  );
+  return <Profile data={userData} />;
 }
