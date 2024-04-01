@@ -4,7 +4,7 @@ export default function FriendListitem() {
       {/* <img src={avatar} alt="Avatar" width="48" />
       <p>{name}</p>
       <p>{isOnline}</p> */}
-      hello world
+      friend list item
     </div>
   );
 }
