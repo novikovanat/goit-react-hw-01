@@ -1,27 +1,29 @@
 table {
-  margin: 60px auto;
-  width: 768px;
+    margin: 60px auto;
+    width: 768px;
 }
 
 table,
 th,
 td {
-  border: 1px solid black;
-  border-collapse: collapse;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 td {
-  padding-left: 80px;
-  text-align: left;
+    width: 286px;
+    padding-left: 80px;
+    text-align: left;
 }
+
 tr:nth-child(even) {
-  background-color: lightgray;
+    background-color: lightgray;
 }
 
 thead {
-  background-color: grey;
+    background-color: grey;
 }
 
 .text {
-  margin: auto;
+    margin: auto;
 }
