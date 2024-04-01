@@ -1,5 +1,4 @@
-export default function FriendListitem({data:{avatar, name, isOnline}}) {
-  console.log(avatar)
+export default function FriendListitem({ data: { avatar, name, isOnline } }) {
   return (
     <div>
       <img src={avatar} alt="Avatar" width="48" />
