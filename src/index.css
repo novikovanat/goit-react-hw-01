@@ -1,6 +1,12 @@
 body {
+  font-size: 25px;
   font-family: sans-serif;
   line-height: 1.5;
+  letter-spacing: 0.025em;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 h1,
@@ -17,6 +23,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 img {
