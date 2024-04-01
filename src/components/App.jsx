@@ -8,10 +8,10 @@ import transactions from './TransactionHistory/transactionHistory.json'
 
 export default function App() {
   return (
-    <div>
+    <>
       <Profile data={userData} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions}/>
-    </div>
+    </>
   );
 }
