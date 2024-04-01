@@ -1,3 +1,4 @@
+import css from './TransactionHistory.module.css';
 export default function TransactionHistory({ items }) {
   const rows = items.map(({ id, type, amount, currency }) => {
     return (
