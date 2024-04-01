@@ -1,6 +1,6 @@
 .list{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -9,8 +9,8 @@
     justify-content: center;
     display: flex;
     border: solid 3px rgb(94, 92, 92);
-    padding:  10px 0;
-    border-radius: 6px;
+    padding:  10px;
+    border-radius: 10px;
     width: 150px;
 }
 

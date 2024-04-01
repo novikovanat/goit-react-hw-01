@@ -1,0 +1,22 @@
+.paragraph{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.online{
+    composes: paragraph;
+    color:green;  
+}
+
+.online::first-letter{
+    text-transform: capitalize;
+}
+
+.offline{
+    composes: paragraph;
+    color:red;
+}
+
+.offline::first-letter{
+    text-transform: capitalize;
+}
