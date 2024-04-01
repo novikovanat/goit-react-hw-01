@@ -1,29 +1,25 @@
-table {
-    margin: 60px auto;
-    width: 768px;
+.table {
+  margin: 60px auto;
+  width: 768px;
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
+.table,
+.rows,
+.cell {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-td {
-    width: 286px;
-    padding-left: 80px;
-    text-align: left;
+.thead {
+  background-color: grey;
 }
 
-tr:nth-child(even) {
-    background-color: lightgray;
+.cell {
+  width: 286px;
+  padding-left: 70px;
+  text-align: left;
 }
 
-thead {
-    background-color: grey;
-}
-
-.text {
-    margin: auto;
+.rows:nth-child(even) {
+  background-color: lightgray;
 }
