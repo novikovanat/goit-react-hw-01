@@ -1,11 +1,16 @@
-export default function Profile({ data: { username, tag, location, avatar, stats: { followers, views, likes} } }) {
+export default function Profile({
+  data: {
+    username,
+    tag,
+    location,
+    avatar,
+    stats: { followers, views, likes },
+  },
+}) {
   return (
     <div>
       <div>
-        <img
-          src={avatar}
-          alt="User avatar"
-        />
+        <img src={avatar} alt="User avatar" />
         <p>{username}</p>
         <p>{tag}</p>
         <p>{location}</p>
